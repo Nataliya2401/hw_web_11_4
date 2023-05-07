@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw-web-11-4"
+version = "0.1.0"
+description = ""
+authors = ["Nataliya2401 <sabotab2000@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_web_11_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
